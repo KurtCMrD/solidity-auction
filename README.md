@@ -4,18 +4,24 @@ Someone initiates an auction and allows others to bid.
 This is purely for learning Solidity.
 Do not use this on the live Ethereum network.
 
-Features:
+# Features:
 - Initiate an auction by deploying the contract.
 - Run the auction for a set period of time.
 - Accept bids.
 - Cancel the auction.
 - Withdraw the losing bid funds.
 
-To run locally against the ropsten network:
+# To run locally against the ropsten network:
 1. npm init
 2. npm install .
 3. Add the relevant values to the .env variables.
 4. npx hardhat compile
 5. node scripts/test.js
 
+# Next
+- Allow any item to be auctioned off.
+- Allow any wallet holder to iniate an auction.
+- Switch to auctioning NFT's.
+- Make use of IPFS.
+- 
 
