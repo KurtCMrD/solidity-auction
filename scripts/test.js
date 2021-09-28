@@ -56,7 +56,6 @@ async function bidOnCar() {
 
 
 async function main() {
-    //await updateMessage("WHAT!!!!!!!!!!!!!!");
     const output = await bidOnCar();
     console.log(">>>>>>>> <<<<<<<<" + output) 
 
