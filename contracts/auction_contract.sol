@@ -129,4 +129,8 @@ contract MyAuction is AuctionInterface {
         return true;    
     }
 
+    function get_owner() public pure returns (string memory) {
+        return "TEST";
+    }
+
 }
